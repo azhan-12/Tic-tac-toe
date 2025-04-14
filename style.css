@@ -87,7 +87,7 @@ h1{
 }
 
 .msg-container {
-  height: 235vmin;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
