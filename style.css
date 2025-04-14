@@ -99,31 +99,13 @@
     display: none;
   }
 
-  @media only screen and (max-width: 430px){
-    .container {
-      height: 70vh;
-  }
-
-  .msg-container {
-    height: 130vmin;
-}
-  }
-
-  @media only screen and (max-width: 380px){
+  @media only screen and (max-width: 500px){
     .msg-container {
-      height: 150vmin;
+      height: 125vmin;
   }
   }
-  @media only screen and (max-width: 320px){
+  @media only screen and (max-width: 420px){
     .msg-container {
-      height: 180vmin;
-  }
-
-  .box {
-    height: 25vmin;
-    width: 25vmin;
-  }
-  .game{
-    width: 78vmin;
+      height: 170vmin;
   }
   }
