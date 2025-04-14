@@ -11,11 +11,11 @@
   h1{
     font-family: 'Press Start 2P', cursive;
     color: #f5f5f5;
-    font-size: 34px;
+    font-size: 37px;
     margin-top: 30px;
   }
   .container {
-    height: 77vh;
+    height: 45vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,12 +82,12 @@
 
   #msg {
     color: #ffffff;
-    font-size: 5vmin;
+    font-size: 6vmin;
     font-family: sans-serif; 
   }
   
   .msg-container {
-    height: 100vmin;
+    height: 235vmin;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,7 +99,7 @@
     display: none;
   }
 
-  @media only screen and (max-width: 500px){
+  /* @media only screen and (max-width: 500px){
     .msg-container {
       height: 125vmin;
   }
@@ -108,4 +108,4 @@
     .msg-container {
       height: 170vmin;
   }
-  }
+  } */
