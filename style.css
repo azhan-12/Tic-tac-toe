@@ -59,6 +59,7 @@
     border: none;
     cursor: pointer;
     transition: background 0.5s ease;
+    margin: 0 0 10px 0;
     background-color: #be071f;
     box-shadow: inset -3px -5px 15px #000000, inset 0px 6px 5px #ff0020;
     /* background-color: #ff0022;
@@ -96,4 +97,33 @@
   
   .hide {
     display: none;
+  }
+
+  @media only screen and (max-width: 430px){
+    .container {
+      height: 70vh;
+  }
+
+  .msg-container {
+    height: 130vmin;
+}
+  }
+
+  @media only screen and (max-width: 380px){
+    .msg-container {
+      height: 150vmin;
+  }
+  }
+  @media only screen and (max-width: 320px){
+    .msg-container {
+      height: 180vmin;
+  }
+
+  .box {
+    height: 25vmin;
+    width: 25vmin;
+  }
+  .game{
+    width: 78vmin;
+  }
   }
